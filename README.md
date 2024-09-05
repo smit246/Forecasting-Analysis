@@ -9,7 +9,7 @@ Variables: Nominal exchange rate, CPI for both countries, and real exchange rate
 Data Period: Monthly from February 2010 to January 2024
 Data Sources: Federal Reserve Economic Data (FRED) for exchange rates, and BIS for Consumer Price Index (CPI)
 
-** 2. Data Preprocessing:**
+**2. Data Preprocessing:**
 Log Transformation: Applied to stabilize variance and linearize relationships between variables.
 Stationarity Check: Augmented Dickey-Fuller (ADF) tests were applied to verify stationarity, crucial for time series forecasting. Non-stationary variables were differenced to achieve stationarity.
 First-order Differencing: Successful for nominal exchange rates and CPI for the US, but CPI for Japan required second-order differencing.
